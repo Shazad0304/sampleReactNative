@@ -25260,11 +25260,6 @@ shimmer@^1.1.0, shimmer@^1.2.0:
   resolved "https://registry.yarnpkg.com/shimmer/-/shimmer-1.2.1.tgz#610859f7de327b587efebf501fb43117f9aff337"
   integrity sha512-sQTKC1Re/rM6XyFM6fIAGHRPVGvyXfgzIDvzoq608vM+jeyVD0Tu1E6Np0Kc2zAIFWIj963V2800iF/9LPieQw==
 
-shuftipro-mobilesdk@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/shuftipro-mobilesdk/-/shuftipro-mobilesdk-0.0.4.tgz#ec1210ba7d066ed60d2c3493b638e97de747886a"
-  integrity sha512-2i0EAi9HbguAX/ogJ81UNcvY3e6QrQXXVbCa0iTOpTql29rTHejzZdfpXmhr7TgqIvA1El7QcxeSuQF/TMax6A==
-
 side-channel@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.0.4.tgz#efce5c8fdc104ee751b25c58d4290011fa5ea2cf"

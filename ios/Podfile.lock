@@ -586,17 +586,9 @@ PODS:
   - Sentry/HybridSDK (8.14.2):
     - SentryPrivate (= 8.14.2)
   - SentryPrivate (8.14.2)
-  - ShuftiPro (3.6.7):
-    - Socket.IO-Client-Swift
-  - shuftipro-mobilesdk (0.0.4):
-    - React-Core
-    - ShuftiPro (= 3.6.7)
-  - Socket.IO-Client-Swift (16.1.0):
-    - Starscream (~> 4.0.6)
   - SocketRocket (0.6.1)
   - sovran-react-native (0.4.5):
     - React-Core
-  - Starscream (4.0.6)
   - TcpSockets (4.0.0):
     - CocoaAsyncSocket
     - React
@@ -715,7 +707,6 @@ DEPENDENCIES:
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - secp256k1.swift
   - "segment-analytics-react-native (from `../node_modules/@segment/analytics-react-native`)"
-  - shuftipro-mobilesdk (from `../node_modules/shuftipro-mobilesdk`)
   - "sovran-react-native (from `../node_modules/@segment/sovran-react-native`)"
   - TcpSockets (from `../node_modules/react-native-tcp`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
@@ -749,10 +740,7 @@ SPEC REPOS:
     - secp256k1.swift
     - Sentry
     - SentryPrivate
-    - ShuftiPro
-    - Socket.IO-Client-Swift
     - SocketRocket
-    - Starscream
     - YogaKit
 
 EXTERNAL SOURCES:
@@ -926,8 +914,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-vector-icons"
   segment-analytics-react-native:
     :path: "../node_modules/@segment/analytics-react-native"
-  shuftipro-mobilesdk:
-    :path: "../node_modules/shuftipro-mobilesdk"
   sovran-react-native:
     :path: "../node_modules/@segment/sovran-react-native"
   TcpSockets:
@@ -1019,7 +1005,7 @@ SPEC CHECKSUMS:
   React-RCTText: b3bd40bc71bca0c3e2cc5ce2c40870a438f303b1
   React-RCTVibration: 64e412b9ac684c4edc938fa1187135ada9af7faf
   React-runtimeexecutor: ffe826b7b1cfbc32a35ed5b64d5886c0ff75f501
-  ReactCommon: 1073d2feb704a7e5daf2039b94e8143cdd091151
+  ReactCommon: 7cf566ddbc9344e1f02bae1ecdaf03dbedb7eb17
   ReactNativePayments: a4e3ac915256a4e759c8a04338b558494a63a0f5
   rn-fetch-blob: f065bb7ab7fb48dd002629f8bdcb0336602d3cba
   RNCAsyncStorage: 0c357f3156fcb16c8589ede67cc036330b6698ca
@@ -1048,16 +1034,12 @@ SPEC CHECKSUMS:
   segment-analytics-react-native: bd1f13ea95bad2313a9c7130da032af0e9a6da60
   Sentry: e0ea366f95ebb68f26d6030d8c22d6b2e6d23dd0
   SentryPrivate: 949a21fa59872427edc73b524c3ec8456761d97f
-  ShuftiPro: 4c870fcd271678b8d417b1e45e38506ad4acfc2f
-  shuftipro-mobilesdk: 68d42d7369a8d132843bda4c10ef0959af7a8bc3
-  Socket.IO-Client-Swift: ee4b8f80a3db18dd7f32b266ddf273310609443c
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   sovran-react-native: fd3dc8f1a4b14acdc4ad25fc6b4ac4f52a2a2a15
-  Starscream: fb2c4510bebf908c62bd383bcf05e673720e91fd
   TcpSockets: a8eb6b5867fe643e6cfed5db2e4de62f4d1e8fd0
   Yoga: e71803b4c1fff832ccf9b92541e00f9b873119b9
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: da9627add1247021355520000518884b04692db7
+PODFILE CHECKSUM: fafd17a8540f4c320a089584e4cdcf8833b37f92
 
 COCOAPODS: 1.12.1
